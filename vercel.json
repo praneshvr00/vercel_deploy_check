@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/spa/(.*)",
+      "destination": "/spa/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/spa/index.html"
     }
